@@ -1,0 +1,1466 @@
+[
+  {
+    "op": "clock_format",
+    "args": [
+      -9223372036854775808,
+      -43200,
+      false,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Chén hour",
+      10
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      -9223372036854775808,
+      0,
+      false,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Xū hour",
+      8
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      -9223372036854775808,
+      39600,
+      false,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Mǎo hour",
+      9
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      -9223372036854775808,
+      -43200,
+      false,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Chén\nHour",
+      10
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      -9223372036854775808,
+      0,
+      false,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Xū\nHour",
+      8
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      -9223372036854775808,
+      39600,
+      false,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Mǎo\nHour",
+      9
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      -9223372036854775808,
+      -43200,
+      true,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Chén, first half",
+      17
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      -9223372036854775808,
+      0,
+      true,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Xū, first half",
+      15
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      -9223372036854775808,
+      39600,
+      true,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Mǎo, second half",
+      17
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      -9223372036854775808,
+      -43200,
+      true,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Chén\nfirst half",
+      16
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      -9223372036854775808,
+      0,
+      true,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Xū\nfirst half",
+      14
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      -9223372036854775808,
+      39600,
+      true,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Mǎo\nsecond half",
+      16
+    ]
+  },
+  {
+    "op": "tick",
+    "args": [
+      -9223372036854775808,
+      39600,
+      false,
+      -36.4,
+      145.4
+    ],
+    "expected": [
+      true,
+      54776
+    ]
+  },
+  {
+    "op": "tick",
+    "args": [
+      -9223372036854775808,
+      39600,
+      true,
+      -36.4,
+      145.4
+    ],
+    "expected": [
+      true,
+      54776
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      9223372036854775807,
+      -43200,
+      false,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Shēn hour",
+      10
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      9223372036854775807,
+      0,
+      false,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Yín hour",
+      9
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      9223372036854775807,
+      39600,
+      false,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Shēn hour",
+      10
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      9223372036854775807,
+      -43200,
+      false,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Shēn\nHour",
+      10
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      9223372036854775807,
+      0,
+      false,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Yín\nHour",
+      9
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      9223372036854775807,
+      39600,
+      false,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Shēn\nHour",
+      10
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      9223372036854775807,
+      -43200,
+      true,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Shēn, second half",
+      18
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      9223372036854775807,
+      0,
+      true,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Yín, second half",
+      17
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      9223372036854775807,
+      39600,
+      true,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Shēn, first half",
+      17
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      9223372036854775807,
+      -43200,
+      true,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Shēn\nsecond half",
+      17
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      9223372036854775807,
+      0,
+      true,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Yín\nsecond half",
+      16
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      9223372036854775807,
+      39600,
+      true,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Shēn\nfirst half",
+      16
+    ]
+  },
+  {
+    "op": "tick",
+    "args": [
+      9223372036854775807,
+      39600,
+      false,
+      -36.4,
+      145.4
+    ],
+    "expected": [
+      true,
+      7145225
+    ]
+  },
+  {
+    "op": "tick",
+    "args": [
+      9223372036854775807,
+      39600,
+      true,
+      -36.4,
+      145.4
+    ],
+    "expected": [
+      true,
+      3545225
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      -1,
+      -43200,
+      false,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Wǔ hour",
+      8
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      -1,
+      0,
+      false,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Zǐ hour",
+      8
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      -1,
+      39600,
+      false,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Sì hour",
+      8
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      -1,
+      -43200,
+      false,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Wǔ\nHour",
+      8
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      -1,
+      0,
+      false,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Zǐ\nHour",
+      8
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      -1,
+      39600,
+      false,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Sì\nHour",
+      8
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      -1,
+      -43200,
+      true,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Wǔ, first half",
+      15
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      -1,
+      0,
+      true,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Zǐ, first half",
+      15
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      -1,
+      39600,
+      true,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Sì, second half",
+      16
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      -1,
+      -43200,
+      true,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Wǔ\nfirst half",
+      14
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      -1,
+      0,
+      true,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Zǐ\nfirst half",
+      14
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      -1,
+      39600,
+      true,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Sì\nsecond half",
+      15
+    ]
+  },
+  {
+    "op": "tick",
+    "args": [
+      -1,
+      39600,
+      false,
+      -36.4,
+      145.4
+    ],
+    "expected": [
+      true,
+      1
+    ]
+  },
+  {
+    "op": "tick",
+    "args": [
+      -1,
+      39600,
+      true,
+      -36.4,
+      145.4
+    ],
+    "expected": [
+      true,
+      1
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      0,
+      -43200,
+      false,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Wǔ hour",
+      8
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      0,
+      0,
+      false,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Zǐ hour",
+      8
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      0,
+      39600,
+      false,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Wǔ hour",
+      8
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      0,
+      -43200,
+      false,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Wǔ\nHour",
+      8
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      0,
+      0,
+      false,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Zǐ\nHour",
+      8
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      0,
+      39600,
+      false,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Wǔ\nHour",
+      8
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      0,
+      -43200,
+      true,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Wǔ, second half",
+      16
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      0,
+      0,
+      true,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Zǐ, second half",
+      16
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      0,
+      39600,
+      true,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Wǔ, first half",
+      15
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      0,
+      -43200,
+      true,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Wǔ\nsecond half",
+      15
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      0,
+      0,
+      true,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Zǐ\nsecond half",
+      15
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      0,
+      39600,
+      true,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Wǔ\nfirst half",
+      14
+    ]
+  },
+  {
+    "op": "tick",
+    "args": [
+      0,
+      39600,
+      false,
+      -36.4,
+      145.4
+    ],
+    "expected": [
+      true,
+      7200000
+    ]
+  },
+  {
+    "op": "tick",
+    "args": [
+      0,
+      39600,
+      true,
+      -36.4,
+      145.4
+    ],
+    "expected": [
+      true,
+      3600000
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      946728000000000,
+      -43200,
+      false,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Zǐ hour",
+      8
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      946728000000000,
+      0,
+      false,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Wǔ hour",
+      8
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      946728000000000,
+      39600,
+      false,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Zǐ hour",
+      8
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      946728000000000,
+      -43200,
+      false,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Zǐ\nHour",
+      8
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      946728000000000,
+      0,
+      false,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Wǔ\nHour",
+      8
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      946728000000000,
+      39600,
+      false,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Zǐ\nHour",
+      8
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      946728000000000,
+      -43200,
+      true,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Zǐ, second half",
+      16
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      946728000000000,
+      0,
+      true,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Wǔ, second half",
+      16
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      946728000000000,
+      39600,
+      true,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Zǐ, first half",
+      15
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      946728000000000,
+      -43200,
+      true,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Zǐ\nsecond half",
+      15
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      946728000000000,
+      0,
+      true,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Wǔ\nsecond half",
+      15
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      946728000000000,
+      39600,
+      true,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Zǐ\nfirst half",
+      14
+    ]
+  },
+  {
+    "op": "tick",
+    "args": [
+      946728000000000,
+      39600,
+      false,
+      -36.4,
+      145.4
+    ],
+    "expected": [
+      true,
+      7200000
+    ]
+  },
+  {
+    "op": "tick",
+    "args": [
+      946728000000000,
+      39600,
+      true,
+      -36.4,
+      145.4
+    ],
+    "expected": [
+      true,
+      3600000
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      1793102400000000,
+      -43200,
+      false,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Zǐ hour",
+      8
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      1793102400000000,
+      0,
+      false,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Wǔ hour",
+      8
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      1793102400000000,
+      39600,
+      false,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Zǐ hour",
+      8
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      1793102400000000,
+      -43200,
+      false,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Zǐ\nHour",
+      8
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      1793102400000000,
+      0,
+      false,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Wǔ\nHour",
+      8
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      1793102400000000,
+      39600,
+      false,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Zǐ\nHour",
+      8
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      1793102400000000,
+      -43200,
+      true,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Zǐ, second half",
+      16
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      1793102400000000,
+      0,
+      true,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Wǔ, second half",
+      16
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      1793102400000000,
+      39600,
+      true,
+      false,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Zǐ, first half",
+      15
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      1793102400000000,
+      -43200,
+      true,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Zǐ\nsecond half",
+      15
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      1793102400000000,
+      0,
+      true,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Wǔ\nsecond half",
+      15
+    ]
+  },
+  {
+    "op": "clock_format",
+    "args": [
+      1793102400000000,
+      39600,
+      true,
+      true,
+      -36.4,
+      145.4,
+      null,
+      512
+    ],
+    "expected": [
+      true,
+      "Zǐ\nfirst half",
+      14
+    ]
+  },
+  {
+    "op": "tick",
+    "args": [
+      1793102400000000,
+      39600,
+      false,
+      -36.4,
+      145.4
+    ],
+    "expected": [
+      true,
+      7200000
+    ]
+  },
+  {
+    "op": "tick",
+    "args": [
+      1793102400000000,
+      39600,
+      true,
+      -36.4,
+      145.4
+    ],
+    "expected": [
+      true,
+      3600000
+    ]
+  }
+]
