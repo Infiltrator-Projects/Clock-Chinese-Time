@@ -1,0 +1,14 @@
+{
+  "title": "Traditional Chinese Double-Hour Clock",
+  "intro": "This clock identifies each two-hour interval of the local civil day by its traditional Earthly Branch. The Zi interval straddles midnight.",
+  "structure": "The twelve branches are Zi (23:00–01:00), Chou (01:00–03:00), Yin (03:00–05:00), Mao (05:00–07:00), Chen (07:00–09:00), Si (09:00–11:00), Wu (11:00–13:00), Wei (13:00–15:00), Shen (15:00–17:00), You (17:00–19:00), Xu (19:00–21:00), Hai (21:00–23:00). Each interval includes its starting boundary and excludes its end. Fine mode distinguishes the first and second ordinary hour within a branch.",
+  "example": "23:30 is the first half of Zi; 00:30 is the second half of Zi. 12:30 is the second half of Wu. The coarse display names the whole branch. The fine display does not show literal seconds.",
+  "history": "The twelve Earthly Branches form an established Chinese cycle used for timekeeping. The clock represents the double-hour convention rather than the hundred-ke division or an animal-name clock.",
+  "model": "Add one hour to the positive local civil phase and wrap modulo 24 hours. Divide by two hours for the branch index; use the remaining hour to determine the first or second half. The provider supplies native Chinese/Japanese branch characters or pinyin and translated period text. Schedule the next one- or two-hour boundary with upward millisecond rounding.",
+  "limits": "Uses modern civil offset rather than a reconstruction of historical local mean time or a solar-event origin. No geographic coordinates are required. Historical regional variations and day-boundary conventions are outside this particular display model.",
+  "sources": [
+    "Implementation: https://github.com/Infiltrator-Projects/Clock-Chinese-Time/blob/main/src/provider.c",
+    "Model evidence: https://github.com/Infiltrator-Projects/Clock-Chinese-Time/blob/main/docs/MODEL.md",
+    "Shared contract: https://github.com/Infiltrator-Projects/Libraries/blob/main/docs/TEMPORAL_PROVIDERS.md"
+  ]
+}

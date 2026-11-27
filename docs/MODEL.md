@@ -14,12 +14,12 @@ This resource owns its clock rendering and next visible update boundary. The clo
 
 ## Implementation status
 
-The source, tests and combined package still belong to [Libraries/Common](https://github.com/Infiltrator-Projects/Libraries/tree/main/resources/temporal). This repository documents the independent `.so` resource that is intended to be migrated; it does **not** claim a working standalone installer or release.
+This repository contains the independent provider, build configuration and tests; current package tools are supplied by the pinned Common submodule. Historical extraction records remain in SOURCE.md.
 
 ## Source documentation
 
 [Calendar's clock model matrix](https://github.com/Infiltrator-Projects/Calendar/blob/main/docs/MODELS.md) · [Historical fidelity audit](https://github.com/Infiltrator-Projects/Libraries/blob/main/docs/TEMPORAL_HISTORICAL_FIDELITY.md) · [Runtime ABI](https://github.com/Infiltrator-Projects/Libraries/blob/main/docs/TEMPORAL_PROVIDERS.md)
 
-## Source copy status
+## Source provenance
 
-The model-specific implementation and required helpers are now copied into this repository. Its behaviour was compared with the original Common 1.19.78 provider; this adds copy-regression evidence, not a new independent historical audit. See [source provenance](../SOURCE.md) and [validation results](../VALIDATION-RESULTS.json). The original Common implementation remains in place.
+The original Common 1.19.78 extraction is historical evidence. Current builds use the authoritative pinned Common submodule. See [source record](../SOURCE.md) and [recorded results](../VALIDATION-RESULTS.json). The operational model, worked examples and limitations are maintained in [GUIDE.json](GUIDE.json).
